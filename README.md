@@ -69,6 +69,7 @@ python main.py
 ```
 
 目前包含的三個範例任務：
+
 1. 日本人口佔台灣人口的比例 (2025年)
 2. iPhone 15 和 Samsung S24 的主要螢幕規格比較
 3. Morphic AI 搜尋創業公司的 CEO 是誰
@@ -87,12 +88,14 @@ python main.py
 ## API 金鑰取得
 
 ### OpenAI API Key
+
 1. 前往 [OpenAI 平台](https://platform.openai.com/)
 2. 註冊或登入帳戶
 3. 在 API Keys 區塊建立新的金鑰
 4. 複製金鑰並貼到 `.env` 檔案中
 
 ### Tavily API Key
+
 1. 前往 [Tavily 網站](https://tavily.com/)
 2. 註冊帳戶
 3. 取得 API 金鑰
@@ -101,6 +104,7 @@ python main.py
 ## 自訂設定
 
 ### 模型選擇
+
 可以在建立 `ReActAgent` 時指定不同的 GPT 模型：
 
 ```python
@@ -108,6 +112,7 @@ agent = ReActAgent(model="gpt-4", max_steps=10)
 ```
 
 ### 最大步驟數
+
 調整 `max_steps` 參數來控制代理的最大推理步驟：
 
 ```python
