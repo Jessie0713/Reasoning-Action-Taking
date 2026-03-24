@@ -24,8 +24,8 @@ def main():
     task2 = "Compare the main display specs of iPhone 15 and Samsung S24."
     task3 = "Who is the CEO of the startup 'Morphic' AI search?"
 
-    # run_task(agent, "TASK 1", task1)
-    # run_task(agent, "TASK 2", task2)
+    run_task(agent, "TASK 1", task1)
+    run_task(agent, "TASK 2", task2)
     run_task(agent, "TASK 3", task3)
 
 
